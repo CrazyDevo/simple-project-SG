@@ -39,7 +39,7 @@ public class StepDefs {
     @Then("^I should see more results$")
     public void i_should_see_more_results() throws Throwable   {
         System.out.println(3/0);
-        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("search"));
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("search1"));
     }
 
     @After
